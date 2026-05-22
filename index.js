@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('API IS RUNNING... 🚀✅/n');
+  res.send('API IS RUNNING... in aws machine 🚀✅/n');
 });
 app.get('/hello', (req, res) => {
     res.send('Hello World!');
